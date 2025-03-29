@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+  }
+  .login-container, .users-container, .edit-container {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #0056b3;
+  }
+  .users-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  .user-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+  }
+  .edit-btn, .delete-btn {
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+  }
+  .edit-btn {
+    color: green;
+  }
+  .delete-btn {
+    color: red;
+  }
+  
